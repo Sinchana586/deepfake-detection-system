@@ -1,0 +1,3 @@
+image_path,label,group_id
+data/processed/real/real_001.jpg,real,source_001
+data/processed/fake/fake_001.jpg,fake,source_001
