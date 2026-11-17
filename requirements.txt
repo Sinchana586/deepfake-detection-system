@@ -1,0 +1,7 @@
+tensorflow>=2.16,<2.20
+opencv-python-headless>=4.9,<5
+streamlit>=1.37,<2
+pandas>=2.1,<3
+scikit-learn>=1.4,<2
+Pillow>=10,<13
+matplotlib>=3.8,<4
