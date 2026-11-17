@@ -5,3 +5,5 @@ data/raw/
 data/processed/
 data/splits/
 artifacts/
+data/fast_splits/
+data/smoke_splits/
