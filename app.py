@@ -8,8 +8,7 @@ from PIL import Image
 from src.deepshield.inference import predict_image, predict_video
 
 
-
-MODEL_PATH = Path(__file__).parent / "artifacts" / "fast" / "best.keras"
+MODEL_PATH = Path(__file__).parent / "artifacts" / "full-shuffled" / "best.keras"
 
 st.set_page_config(page_title="DeepShield AI", page_icon="🛡️")
 st.title("DeepShield AI")

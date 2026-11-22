@@ -58,7 +58,7 @@ def load_split(csv_path, batch_size, training=False, seed=42):
 
     ds = tf.data.Dataset.from_tensor_slices((paths, labels))
     if training:
-        ds = ds.shuffle(min(len(paths), 4096), seed=seed, reshuffle_each_iteration=True)
+        ds = ds.shuffle(len(paths), seed=seed, reshuffle_each_iteration=True)
 
     def prepare(path, label):
         image = tf.numpy_function(load_image, [path], tf.float32)
